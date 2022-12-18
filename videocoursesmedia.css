@@ -1,0 +1,703 @@
+@media (min-width: 1000px){
+  .predmet-grid {
+      margin-top: 3.75rem;
+      grid-template-columns: repeat(4,1fr);
+  }
+  
+  .numofcourses{
+    display: none;
+  }
+  }
+  
+  @media (min-width: 700px) and (max-width:999px){
+  
+  body{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+  
+  .predmet-grid{
+      grid-template-columns: repeat(3,1fr);
+      margin-top: 1.55rem;
+        grid-gap:2%;
+        row-gap: 3%;
+        padding: 4%;
+  }
+  
+  .karta{
+    width: 100%;
+    min-width: 10vh;
+    height: 24vh;
+  }
+  
+  .header{
+    justify-content: center;
+    padding: 0 0rem;
+    height: 8.5rem;
+    column-gap: 4%;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .tochki-image{
+    width: 100%;
+  }
+  
+  .tochki{
+    margin-left: 0%;
+    width: 3.8vh;
+    padding-left: 0%;
+  }
+  
+  .dostyq-header{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #4a154b;
+    margin-left: 0rem;
+    padding-right: 0%;
+  }
+  
+  .dostyk-icon{
+    width: 6vh;
+    margin-left: 0rem;
+  }
+  
+  .dostyqsvg{
+    width: 100%;
+  }
+  
+  .main-vverh{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 0rem;
+    padding-top: 3.8125rem;
+    min-height: min-content;
+  }
+  
+  main{
+    margin-top: 8rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    padding-top: 0rem;
+    min-width: 0%;
+  }
+  
+  .videokursy-main-text{
+    font-size: 2.975rem;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .videokursy-opisanie p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0rem;
+    text-align: center;
+  
+  }
+  
+  .videokursy-opisanie{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .numofcourses{
+    margin-top: 3rem;
+    font-size: 150%;
+    font-weight: 500;
+  
+  }
+  
+  .yazykp{
+    font-size: 130%;
+    font-weight: 600;
+  }
+  
+  .down{
+    padding-left: 0.4rem;
+  }
+  
+  .text-inside-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .language{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    min-width: 10%;
+  }
+  
+  .language-button{
+    border-radius: 10px;
+    border: none;
+    padding: 1rem 4rem;
+    background: #eef2f6;
+    font-weight: 500;
+    width: 100%;
+  }
+  
+  .karta{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110%;
+  }
+  
+  .niz-karty{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+  }
+  
+  .center-niz-karty{
+    padding: 8%;
+    border-radius: 10px;
+    background-color: rgb(235, 233, 233);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .course-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .niz-karty-left{
+    border-right: 1px solid black;
+    width: 44%;
+  }
+  
+  .predmet-text{
+    font-weight: 700;
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+    
+  }
+  
+  .niz-karty-left-yazyk{
+    color: #999;
+    font-size: 1.1075rem;
+  }
+  
+  .niz-niz-karty{
+    color: #000;
+      font-size: 1.000rem;
+  }
+  
+  .predmet-text-top{
+    color: #999;
+    font-size: 1.0075rem;
+    margin-bottom: 0rem;
+  }
+  
+  
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 0rem;
+    margin-top: 20%;
+    padding-top: 0rem;
+    margin-bottom: 0rem;
+    min-width: 0px;
+    align-items: center;
+  }
+  
+  .left-footer{
+    display: flex;
+    column-gap: 0rem;
+  }
+  
+  .dostyq{
+    font-size: 2.55rem;
+    font-weight: 800;
+    color: #4a154b;
+    margin-bottom: 0.5rem;
+    margin-left: 5%;
+  }
+  
+  .dostyq-image-container{
+    width: 7vh;
+  }
+  
+  .dostyq-image-container-icon{
+    width: 100%;
+  }
+  
+  .svyazh{
+    font-size: 1.6375rem;
+    color: #4a154b;
+    font-weight: 600;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    margin-left: 5%;
+  }
+  
+  .dostyq-nomer{
+    font-size: 1.4375rem;
+    color: #8049c0;
+    margin-left: 5%;
+  }
+  
+  .right-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+  }
+  
+  .weinmedia{
+    font-size: 1.6375rem;
+    color: #4a154b;
+    font-weight: 600;
+    margin-right: 0rem;
+    margin-top: 5%;
+    text-align: center;
+  }
+  
+  .socset{
+    display: flex;
+    column-gap: 2rem;
+  }
+  
+  .after-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 0px;
+    margin-top: 30%;
+    text-align: center;
+  }
+  
+  .right-after-footer{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+  }
+  
+  .after-footer-text{
+    color: black;
+    font-size: 1.5375rem;
+    font-weight: 800;
+    padding-bottom: 3rem;
+    margin-left: 0rem;
+  }
+  
+  }
+  
+  @media(max-width:699px){
+  
+    body{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .predmet-grid{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 1.55rem;
+        grid-gap:4%;
+        row-gap: 3.5%;
+        padding: 4%;
+    }
+  
+    .header{
+      justify-content: center;
+      padding: 0 0rem;
+      height: 8.5rem;
+      column-gap: 4%;
+      width: 100%;
+      z-index: 1000;
+    }
+  
+    .tochki-image{
+      width: 100%;
+    }
+    
+    .tochki{
+      margin-left: 0%;
+      width: 3.8vh;
+      padding-left: 0%;
+    }
+    
+    .dostyq-header{
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #4a154b;
+      margin-left: 0rem;
+      padding-right: 0%;
+    }
+  
+    .dostyk-icon{
+      width: 6vh;
+      margin-left: 0rem;
+    }
+  
+    .dostyqsvg{
+      width: 100%;
+    }
+  
+    .main-vverh{
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      align-items: center;
+      margin-right: 0;
+      margin-left: 0;
+      width: 100%;
+      margin-top: 0rem;
+      padding-top: 3.8125rem;
+      min-height: min-content;
+    }
+  
+    main{
+      margin-top: 8rem;
+      margin-right: 0rem;
+      margin-left: 0rem;
+      padding-top: 0rem;
+      min-width: 0%;
+    }
+  
+    .videokursy-main-text{
+      font-size: 2.575rem;
+      display: flex;
+      justify-content: center;
+  
+    }
+    
+    .videokursy-opisanie p{
+      font-size: 1.2rem;
+      font-weight: 600;
+      letter-spacing: 0rem;
+      text-align: center;
+  
+    }
+  
+    .videokursy-opisanie{
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    
+    .numofcourses{
+      margin-top: 1.3rem;
+      font-size: 110%;
+      font-weight: 500;
+  
+    }
+    
+    .yazykp{
+      font-size: 110%;
+      font-weight: 600;
+    }
+    
+    .down{
+      padding-left: 0.4rem;
+    }
+    
+    .text-inside-button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .language{
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      min-width: 10%;
+    }
+    
+    .language-button{
+      border-radius: 10px;
+      border: none;
+      padding: 1rem 2rem;
+      background: #eef2f6;
+      font-weight: 500;
+      width: 100%;
+    }
+    
+    .two-buttons{
+      display: flex;
+      column-gap: 5%;
+    }
+    
+    .karta{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 110%;
+    }
+    
+    .niz-karty{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0%;
+    }
+    
+    .center-niz-karty{
+      padding: 8%;
+      border-radius: 10px;
+      background-color: rgb(235, 233, 233);
+      height: 55%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    .course-image{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+    
+    .niz-karty-left{
+      border-right: 1px solid black;
+      width: 43%;
+    }
+    
+    .predmet-text{
+      font-weight: 700;
+      margin-bottom: 0rem;
+      font-size: 1.1rem;
+    }
+    
+    .niz-karty-left-yazyk{
+      color: #999;
+      font-size: 0.8875rem;
+  
+    }
+    
+    .niz-niz-karty{
+      color: #000;
+        font-size: 0.825rem;
+        padding-top: 0.7vh;
+    }
+    
+    
+    .footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      row-gap: 0rem;
+      margin-top: 20%;
+      padding-top: 1rem;
+      margin-bottom: 3rem;
+      min-width: 0px;
+      align-items: center;
+    }
+    
+    .left-footer{
+      display: flex;
+      column-gap: 0rem;
+    }
+    
+    .dostyq{
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #4a154b;
+      margin-bottom: 0.5rem;
+      margin-left: 5%;
+    }
+  
+    .dostyq-image-container{
+      width: 6vh;
+      margin-top: 0.7vh;
+    }
+  
+    .dostyq-image-container-icon{
+      width: 100%;
+    }
+    
+    .svyazh{
+      font-size: 1.1375rem;
+      color: #4a154b;
+      font-weight: 600;
+      margin-top: 0rem;
+      margin-bottom: 0.5rem;
+      margin-left: 5%;
+    }
+    
+    .dostyq-nomer{
+      font-size: 1.4375rem;
+      color: #8049c0;
+      margin-left: 5%;
+    }
+    
+    .right-footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 1rem;
+    }
+    
+    .weinmedia{
+      font-size: 1.3375rem;
+      color: #4a154b;
+      font-weight: 600;
+      margin-right: 0rem;
+      margin-top: 5%;
+      text-align: center;
+    }
+    
+    .socset{
+      display: flex;
+      column-gap: 2rem;
+    }
+    
+    .after-footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 0px;
+      margin-top: 30%;
+      text-align: center;
+    }
+    
+    .right-after-footer{
+      display: flex;
+      align-items: center;
+      column-gap: 1rem;
+    }
+    
+    .after-footer-text{
+      color: black;
+      font-size: 1.1375rem;
+      font-weight: 800;
+      padding-bottom: 3rem;
+      margin-left: 0rem;
+    }
+
+    .animated-slider{
+      margin-top: 110%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .slider{
+      width: 250px;
+      height: 250px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    .slides{
+      width: 500%;
+      height: 100%;
+      display: flex;
+    }
+    
+    .slides input{
+      display: none;
+    }
+    
+    .slide{
+      width: 20%;
+      transition: 1.5s;
+    }
+    
+    .slide img{
+      width: 250px;
+      height: 250px;
+    }
+    
+    .navigation-mannual{
+      position: absolute;
+      width: 250px;
+      margin-top: -40px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .mannual-btn{
+      border: 2px solid #ccc;
+      padding: 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 1s;
+    }
+    
+    .mannual-btn:not(:last-child){
+      margin-right: 40px;
+    }
+    
+    .mannual-btn:hover{
+      background-color: #ccc;
+    }
+    
+    #radio1:checked ~ .first{
+      margin-left: 0;
+    }
+    
+    #radio2:checked ~ .first{
+      margin-left: -20%;
+    }
+    
+    #radio3:checked ~ .first{
+      margin-left: -40%;
+    }
+    
+    #radio4:checked ~ .first{
+      margin-left: -60%;
+    }
+    
+    .navigation-auto{
+      position: absolute;
+      display: flex;
+      width: 250px;
+      justify-content: center;
+      margin-top: 210px;
+    }
+    
+    .navigation-auto div{
+      border: 2px solid #333;
+      padding: 5px;
+      border-radius: 10px;
+      transition: 1s;
+    }
+    
+    .navigation-auto div:not(:last-child){
+      margin-right: 40px;
+    }
+    
+    #radio1:checked ~.navigation-auto .auto-btn-1{
+      background: #ccc;
+    }
+    
+    #radio2:checked ~.navigation-auto .auto-btn-2{
+      background: #ccc;
+    }
+    
+    
+    #radio3:checked ~.navigation-auto .auto-btn-3{
+      background: #ccc;
+    }
+    
+    #radio4:checked ~.navigation-auto .auto-btn-4{
+      background: #ccc;
+    }
+    }
