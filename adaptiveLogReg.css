@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1200px) {
+   
+}
+
+@media (min-width: 770px) and (max-width:960px){
+}
+
+@media (min-width: 650px) and (max-width:7600px){
+}
+@media (min-width: 600px) and (max-width:640px){
+}
+@media (min-width: 500px) and (max-width:590px){
+    .popup-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (min-width: 325px) and (max-width:480px){    
+    #premember {
+        /* display: inline-flex; */
+        margin-top: -14.6%;
+        margin-right: 15%;
+    }
+}
+
+@media (min-width: 325px) and (max-width:390px){
+    #premember {
+        /* display: inline-flex; */
+        margin-top: -14.9%;
+        margin-right: 11%;
+    }
+}
+@media (min-width: 250px) and (max-width:390px){    
+    #premember {
+        /* display: inline-flex; */
+        margin-top: -16.9%;
+        margin-right: -5%;
+    }
+}

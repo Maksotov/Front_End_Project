@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1200px) {
+   
+}
+
+@media only screen and (max-width: 992px) {
+    .languages {
+        margin-right: 5%;
+        padding: 10px;
+    }
+    #internet_logo {
+        margin-top: 2.8px;
+    }
+}
+
+@media only screen and (max-device-width: 760px) {
+    .languages {
+        margin-right: 2%;
+        padding: 10px;
+    }
+    #internet_logo {
+        margin-top: 2.8px;
+    }
+}
+@media (min-width: 600px) and (max-width:640px){
+    .languages {
+        margin-right: 5%;
+        padding-left: 0px;
+        padding-right: 30px;   
+     }
+    #internet_logo {
+        margin-top: 2.4px;
+        width: 40%;
+        height: 40%;
+        padding-right: 5%;
+    }
+}
+@media (min-width: 500px) and (max-width:590px){
+    .languages {
+        margin-right: 3%;
+        padding-left: 0px;
+        padding-right: 30px;   
+     }
+    #internet_logo {
+        margin-top: 2.8px;
+        width: 45%;
+        height: 45%;
+        padding-right: 5%;
+    }
+}
+@media (min-width: 325px) and (max-width:480px){    
+    .languages {
+        margin-right: 7%;
+        padding-left: 0px;
+        padding-right: 30px;   
+     }
+    #internet_logo {
+        margin-top: 2.8px;
+        width: 50%;
+        height: 50%;
+        padding-right: 5%;
+    }
+}
+
+@media (min-width: 325px) and (max-width:390px){
+    .languages {
+        margin-right: 5%;
+        padding-left: 0px;
+        padding-right: 40px;   
+     }
+    #internet_logo {
+        margin-top: 2.4px;
+        width: 70%;
+        height: 70%;
+        padding-right: 5%;
+    }
+}
+@media (min-width: 250px) and (max-width:390px){    
+    .languages {
+        margin-right: 7%;
+        padding-left: 0px;
+        padding-right: 40px;   
+     }
+    #internet_logo {
+        margin-top: 2.8px;
+        width: 70%;
+        height: 70%;
+        padding-right: 5%;
+    }
+}
