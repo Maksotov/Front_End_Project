@@ -121,10 +121,18 @@ function showSlides6() {
 }
 
 function myFunction() {
-  let x = document.getElementsByClassName("pagestiniwindegipages");
-  if(x[0].style.display === "flex") {
-    x[0].style.display = "none";
-  }else {
-    x[0].style.display = "flex";
-  }
+    let x = document.getElementsByClassName("temp");
+    if(x[0].style.display === "block") {
+      x[0].style.display = "none";
+    }else {
+      x[0].style.display = "block";
+    }
+}
+
+function ggg() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function hhh() {
+  document.getElementById("myModal").style.display = "none";
 }
