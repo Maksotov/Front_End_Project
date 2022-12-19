@@ -3,8 +3,8 @@
     <title>dostyq.online</title>
     <meta charset="UTF-8">
     <meta name = "viewport" content="width = device - width , initial-scale=1.0">
-    <link rel="stylesheet" href="Main.css">
-    <link rel="stylesheet" href="Main(Media).css">
+    <link rel="stylesheet" href="Main.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="Main(Media).css?v=<?php echo time(); ?>">
     <link rel="icon" type="image/x-icon" href="https://dostyq.online/_nuxt/b24017d0fc470abbf8fe439ea6ba05a7.svg">
 </head>
 <body>
@@ -20,15 +20,20 @@
                 <b>dostyq.online</b>
                 </div>
             </a>
-            <div class="pagestiniwindegipages">
-            <div class="pages">
-              <img src="./ImagesZhan/loreg.png" alt="logo1" id="logreg1">
-              <a href="LogReg.php" id="y6">Войти</a>
-              <p id="ggg"></p>
-              <?php
+        </div>
+        </div>
+    </div>
+    <div class="temp">
+      <div class="pages">
+        <img src="./ImagesZhan/loreg.png" alt="logo1" id="logreg1">
+        <a href="LogReg.php" id="y6">Войти</a>
+        <p id="ggg"></p>
+        <?php
                 $isVowel = 'undefined';
                 $myname = 'undefined';
-                $connection = new mysqli("localhost", "root", "password", "logreg");
+                $myemail = 'undefined';
+
+                $connection = new mysqli("localhost", "root", "", "logreg");
                   if($connection->connect_error) {
                       die("Connection failed: " . $connection->connect_error);
                   }
@@ -46,7 +51,7 @@
                       echo "0 results";
                   }
 
-                  $conn = new mysqli("localhost", "root", "password", "logreg");
+                  $conn = new mysqli("localhost", "root", "", "logreg");
                   if($conn->connect_error) {
                       die("Connection failed: " . $con->connect_error);
                   }
@@ -65,7 +70,7 @@
                   }
                   $conn->close();
 
-                  if($isVowel == 1 and (isset($_COOKIE['email']) and isset($_COOKIE['pass']))) {
+                  if($isVowel == 1) {
                     echo "<script>document.getElementById('y6').textContent  = '$myname';</script>";
                   }else {
                     echo "<script>document.getElementById('y6').textContent  = 'Войти';</script>";
@@ -73,28 +78,24 @@
 
               $connection->close();
               ?>
-            </div> 
-            <div class="pages">
-              <img src="./ImagesZhan/video.png" alt="logo2" id="video1">
-              <a href="videocourses.php">Видеокурсы</a> 
-            </div>
-            <div class="pages">
-              <img src="./ImagesZhan/Марафоны.png" alt="logo3" id="marafon">
-            <a href="marathon.php">Марафоны</a>
-            </div> 
-            <div class="pages">
-              <img src="./ImagesZhan/prof.png" alt="logo4" id="prof">
-            <a href="Prof_Page.php">Профориентация</a> 
-            </div>
-            <div class="pages">
-              <img src="./ImagesZhan/kontact.png" alt="logo4" id="kontact">
-            <a href="contacts.php">Контакты</a> 
-            </div>
-          </div>
-        </div>
-        </div>
+      </div> 
+      <div class="pages">
+        <img src="./ImagesZhan/video.png" alt="logo2" id="video1">
+        <a href="videocourses.php">Видеокурсы</a> 
+      </div>
+      <div class="pages">
+        <img src="./ImagesZhan/Марафоны.png" alt="logo3" id="marafon">
+      <a href="marathon.php">Марафоны</a>
+      </div> 
+      <div class="pages">
+        <img src="./ImagesZhan/prof.png" alt="logo4" id="prof">
+      <a href="Prof_Page.php">Профориентация</a> 
+      </div>
+      <div class="pages">
+        <img src="./ImagesZhan/kontact.png" alt="logo4" id="kontact">
+      <a href="contacts.php">Контакты</a> 
+      </div>
     </div>
-
     <div class="body">
     <div class="main">
         <h1>ҰБТ-ға онлайн<br>дайындық</h1>
@@ -103,7 +104,7 @@
         <button id="iii" class="kiru" onclick="window.location.href='Request.php'">Тіркелу үшін</button>
         <h4>Тіркелгеннен кейін сіз барлық пәндер бойынша тегін<br>сынақ сабақтарына қол жеткізе аласыз</h4>
         <?php
-              if($isVowel == 1 and (isset($_COOKIE['email']) and isset($_COOKIE['pass']))) {
+              if($isVowel == 1) {
                 echo "<script>document.getElementById('iii').style.display = 'inline';</script>";
               }else {
                 echo "<script>document.getElementById('iii').style.display = 'none';</script>";
@@ -145,10 +146,9 @@
         <h6> &#10003; Қолданбаға кіру</h6>
         <h6> &#10003; Оқу материалдары</h6>
         <div class="button_kobirek">
-        <button>Көбірек</button>
+        <a href="https://educon.online/" target="_blank"><button style="cursor: pointer;">Көбірек</button></a>
         </div>
         </div>
-
         <div class="page2">
             <div class="bet2_text">
                 <h3>Негізгі пәндер</h3>
@@ -167,8 +167,8 @@
             <h6> &#10003; Қолданбаға кіру</h6>
             <h6> &#10003; Оқу материалдары</h6>
             <div class="button2_kobirek">
-            <button>Көбірек</button>
-            </div>
+            <a href="https://educon.online/" target="_blank"><button style="cursor: pointer;">Көбірек</button></a>
+                      </div>
             </div>
 
             <div class="page3">
@@ -191,7 +191,7 @@
                 <h6> &#10003; Кураторлық</h6>
                 <h6> &#10003; Оқу материалдары</h6>
                 <div class="button3_kobirek">
-                <button>Көбірек</button>
+                <a href="https://educon.online/" target="_blank"><button style="cursor: pointer;">Көбірек</button></a>
                 </div>
                 </div>
     
